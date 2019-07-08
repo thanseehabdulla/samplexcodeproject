@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var enteredName: UITextField!
 
+    @IBAction func submit(_ sender: UIButton) {
+        enteredName.text = "thanseeh"
+    }
 }
 
