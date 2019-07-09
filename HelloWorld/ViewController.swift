@@ -22,8 +22,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var enteredName: UITextField!
 
+    @IBOutlet weak var result: UILabel!
+    
     @IBAction func submit(_ sender: UIButton) {
-        enteredName.text = "thanseeh"
+        result.text = enteredName.text
     }
+    
 }
 

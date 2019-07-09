@@ -59,6 +59,7 @@
                     </view>
                     <connections>
                         <outlet property="enteredName" destination="y6P-GE-GtS" id="tt0-X3-4Yp"/>
+                        <outlet property="result" destination="aYy-hh-PKd" id="fhI-gP-Yp9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
